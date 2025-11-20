@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 14% 7%;
+  --foreground: 220 14% 97%;
+  --muted: 220 14% 12%;
+  --accent: 259 94% 61%;
+  --border: 220 14% 20%;
+  --card: 220 14% 10%;
+  --primary: 259 94% 61%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 198 93% 60%;
+  --secondary-foreground: 0 0% 10%;
+}
+
+* {
+  @apply antialiased;
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.09), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(56, 189, 248, 0.08), transparent 20%),
+    #05060b;
+  color: hsl(var(--foreground));
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.glass-surface {
+  background: var(--glass-bg, rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.section-padding {
+  padding: clamp(3rem, 5vw, 5rem) clamp(1.5rem, 5vw, 4rem);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #a855f7 0%, #6366f1 40%, #22d3ee 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.shimmer {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 25%, rgba(255, 255, 255, 0.12) 50%, rgba(255, 255, 255, 0.06) 75%);
+  background-size: 1400px 100%;
+}
