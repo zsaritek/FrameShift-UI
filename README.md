@@ -19,9 +19,7 @@ I wanted a portfolio piece that felt like an actual SaaS launchâ€”not another â€
 
 ## Screenshots
 
-![Startup Landing Page Generator placeholder](https://placehold.co/1200x720/0f172a/e2e8f0?text=Startup+Landing+Page+Generator+Preview)
-
-> Replace the placeholder above with your own screenshot before publishing.
+![Startup Landing Page Generator](./images/frameShift_mainpage.png)
 
 ## Tech stack in practice
 
